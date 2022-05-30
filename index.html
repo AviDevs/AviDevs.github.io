@@ -1,130 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<title>Resource Hacker</title>
+<style type="text/css"><!-- 
+    body  {
+	  BACKGROUND-COLOR: #E5E2E5;
+      text-align: center;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+	  padding: 20px 20px;
+    }
+    body, td, th {
+      margin: 20px auto 20px auto;
+      font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+      }
+    a   {
+      text-decoration: none;
+      font-weight: bold;
+      }
+    h1  {
+      font-size: 2.0em;
+      font-weight: bold;
+      margin: 0.2em 0em;
+      COLOR: #46845F;
+      }
+    h2  {
+      font-size: 1.7em;
+      margin: 0.2em 0em;
+      font-weight: bold;
+	  COLOR: #009999;
+      }
+    h3  {
+      font-size: 1.2em;
+      padding: 0.2em;
+	  BACKGROUND-COLOR: #BBCCCC; 
+      }
+    TD.menu {BACKGROUND-COLOR: #D8D8B8; TEXT-ALIGN: center}
+		
+	ol, ul {margin: .6em 0 .2em 1em; padding: 0px; list-style: outside;}
+	pre {margin: 0px; padding: 0px; BACKGROUND-COLOR: #F8F8F8; color: maroon;}
+		
+    .caption {BACKGROUND-COLOR: #BACBDA; font-size: 1.3em; font-weight: bold; color: #000066}
+    .maroon {color: maroon;} 
+	strong {color: #46845F;} 
+	.smallfont {font-size: 0.7em;}
+	
+--></style>
 
-Resource HackerTM
-... a freeware resource compiler & decompiler for Windows® applications
+  <script type="text/javascript" async="" src="Resource%20Hacker_files/ga.js"></script><script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25574855-1']);
+    _gaq.push(['_trackPageview']);
 
-Version 5.1.8 (360)
-Last updated: 20 November 2020
-Copyright © 1999-2020 Angus Johnson
-Freeware - no nags, no ads and fully functional.
-Download
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+	<meta name="viewport" content="device-width, initial-scale=1">
+</head>
 
-Overview:
-Resource Hacker™ is a resource editor for 32bit and 64bit Windows® applications. It's both a resource compiler (for *.rc files), and a decompiler - enabling viewing and editing of resources in executables (*.exe; *.dll; *.scr; etc) and compiled resource libraries (*.res, *.mui). While Resource Hacker™ is primarily a GUI application, it also provides many options for compiling and decompiling resources from the command-line.
+<body>
+<div align="center">
+<div style="width: 800px; text-align: justify;">
 
-Resource Hacker
+<div style="BACKGROUND-COLOR: #BBCCCC; padding: 0 1em 0.7em 1em">
+<h2>Resource Hacker<sup><font size="-1">TM</font></sup></h2>
+... a freeware resource compiler &amp; decompiler for Windows® applications
+</div><br>
 
+<strong>Version 5.1.8 (360)</strong><br>
+Last updated: 20 November 2020<br>
+Copyright © 1999-2020 Angus Johnson<br>
+<span class="maroon">Freeware - no nags, no ads and fully functional.</span><br>
+<a href="#download">Download</a><br><br>
 
+<h3>Overview:</h3>
 
-Compiling:
-Compiling can be initiated either by opening an existing resource script file, or by creating one from scratch using Resource Hacker's editor.
+Resource Hacker™ is a resource editor for 32bit and 64bit Windows® applications. It's both a <strong>resource compiler</strong> (for *.rc files), and a <strong>decompiler</strong>
+ - enabling viewing and editing of resources in executables (*.exe; 
+*.dll; *.scr; etc) and compiled resource libraries (*.res, *.mui). While
+ Resource Hacker™ is primarily a GUI application, it also provides many 
+options for compiling and decompiling resources from the command-line.<br><br>
 
-A complete list of Resource-Definition Statements can be found here.
-
-Additional features of Resource Hacker's compiler include: The #INCLUDE directive (to access definition statements in header files etc) can be nested to multiple levels, as can the #IF, and #IFDEF directives. #DEFINE, #UNDEF, #IF, #ELIF, #ELSE, #IFDEF, #IFNDEF, #INCLUDE, and #PRAGMA directives are all supported. Strings, between double-quote (") characters, may contain typical 'C' style backslashed 'escaped' characters — \t , \n , \\ , \" , \x, \u and \377 (octal). A double-quote within a string must be 'escaped' using either a preceding backslash or with another double-quote. Script comments are preceded either by double forward-slashes (//) or by a semi-colon (;). Filenames with relative paths are allowed. Filenames that contain spaces must be enclosed within double-quote characters.
-
-Compiler error messages are reported, even errors nested within INCLUDE statements ...
-
-
-Viewing and Editing Resources:
-Once a resource file has been opened, its resources will generally be displayed as either an image (or group of images) or as decompiled text. Binary resources, usually images, can't be edited directly with Resource Hacker, but they can still be very easily exported and imported once they've been modified by an external image editor. (I see no benefit in duplicating what third-party image editors do so well.)
-
-
-
-
-
-Menu and Dialog resource types have their own WYSIWYG designers:
-
-
-
-
-
-Binary resources that have unknown formats will be displayed as read-only binary text. (Any resource can also be viewed in this fashion if desired.)
-
-
-Other Actions:
+<!-- <img src="bm00.png" width="985" height="651" alt=""><br><br> -->
+<img src="Resource%20Hacker_files/rh_dlg_edit.png" alt="Resource Hacker" width="791" height="514"><br><br>
+<img src="Resource%20Hacker_files/rh_menu2.png" alt="" width="738" height="400"><br><br>
 
 
+<h3>Compiling:</h3>
 
-Command Line Syntax:
-Just about all the functionality of Resource Hacker™ can be accessed from the command line without having to open the Resource Hacker™ GUI.
-Command line instructions and Resource Hacker™ scripts can remove the drudgery entailed with repeating Resource Hacker™ tasks.
-Command-line instructions are a combination of switch statements followed by switch parameters as explained in the following table: Command line statements:
+Compiling can be initiated either by opening an existing resource script
+ file, or by creating one from scratch using Resource Hacker's editor.<br><br>
 
-Switch       	  	Parameter
--open	  	filename - the name of the file that is to be modified. It should be a Windows PE file (*.exe, *.dll etc) or a compiled or uncompiled resouce file (*.res or *.rc)
--save	  	usually a filename for the new or modified file, but can also be a folder when extracting multiple resources
--resource	  	filename - contains a resource being added to the opened file.
--action	  	action to be performed on the opened file
+A complete list of Resource-Definition Statements can be found <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/aa381043(v=vs.85).aspx">here</a>.<br><br>
 
-    add - add a resource, but fails if it already exists
-    addoverwrite - add a resource, and overwriting if it already exists
-    addskip - add a resource, but skipping if it already exists
-    compile - compiles a resource script file (*.rc) to a binary resource file (*.res)
-    delete - delete a resource
-    extract - extract a resource
-    modify - modify a resource
-    changelanguage(langID) - changes the language of ALL resources 
+Additional features of Resource Hacker's compiler include: The #INCLUDE 
+directive (to access definition statements in header files etc) can be 
+nested to multiple levels, as can the #IF, and #IFDEF directives.
+#DEFINE, #UNDEF, #IF, #ELIF, #ELSE, #IFDEF, #IFNDEF, #INCLUDE, and 
+#PRAGMA directives are all supported. Strings, between double-quote (") 
+characters, may contain typical 'C' style backslashed 'escaped' 
+characters  — \t , \n , \\ , \" , \x, \u and \377 (octal). A 
+double-quote within a string must be 'escaped' using either a preceding 
+backslash or with another double-quote. Script comments are preceded 
+either by double forward-slashes (//) or by a semi-colon (;). Filenames 
+with relative paths are allowed. Filenames that contain spaces must be 
+enclosed within double-quote characters.<br><br>
 
--mask	  	resource mask - Type,Name,Language
-commas are mandatory but each of Type, Name & Language are optional
--log	  	Filename or CONSOLE or NUL
-CONSOLE can be abbreviated to CON
-Logs the details of the operation performed
-If this switch is omitted, the log will be written to resourcehacker.log
--script	  	filename - contains a multi-command script, NOT a resource script for more info: -help script
--help	  	options - command-line or script (always logged to CONSOLE) other switches are ignored.
+Compiler error messages are reported, even errors nested within INCLUDE statements ...<br>
+<img src="Resource%20Hacker_files/rh_scrpt_err.png" alt="" width="803" height="478"><br><br>
+
+<h3>Viewing and Editing Resources:</h3>
+
+Once a resource file has been opened, its resources will generally be 
+displayed as either an image (or group of images) or as decompiled text.
+ Binary resources, usually images, can't be edited directly with 
+Resource Hacker, but they can still be very easily exported and imported
+ once they've been modified by an external image editor. (I see no 
+benefit in duplicating what third-party image editors do so well.) <br><br>
+<img src="Resource%20Hacker_files/rh_icon.png" alt="" width="720" height="439"><br><br>
+<img src="Resource%20Hacker_files/rh_scrpt.png" alt="" width="731" height="488"><br><br>
+
+Menu and Dialog resource types have their own WYSIWYG designers:<br><br>
+<img src="Resource%20Hacker_files/rh_mnu_ctrl.png" alt="" width="793" height="563"><br><br>
+<img src="Resource%20Hacker_files/rh_dlg_ctrl.png" alt="" width="741" height="540"><br><br>
+
+Binary resources that have unknown formats will be displayed as 
+read-only binary text. (Any resource can also be viewed in this fashion 
+if desired.)<br>
+<img src="Resource%20Hacker_files/rh_binary.png" alt="" width="791" height="466"><br><br>
+
+<h3>Other Actions:</h3>
+
+<img src="Resource%20Hacker_files/rh_main_menu.png" alt="" width="803" height="493"><br><br><br>
+
+<h3>Command Line Syntax:</h3>
+	Just about all the functionality of Resource Hacker™ can be accessed 
+from the command line without having to open the Resource Hacker™ GUI.<br>
+	Command line instructions and Resource Hacker™ scripts can remove the drudgery entailed with repeating Resource Hacker™ tasks.<br>
+Command-line instructions are a combination of switch statements 
+followed by switch parameters as explained in the following table: 
+	
+<strong>Command line statements:</strong><br><br>
+<table cellspacing="2" cellpadding="2" border="0">
+<tbody><tr>
+	<th align="left">Switch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th>&nbsp;</th>
+	<th align="left">Parameter</th>
+</tr>
+<tr>
+	<td valign="top">-open</td><td>&nbsp;</td>
+	<td>filename - the name of the file that is to be modified. It should 
+be a Windows PE file (*.exe, *.dll etc) or a compiled or uncompiled 
+resouce file (*.res or *.rc)</td>
+</tr>
+<tr>
+	<td valign="top">-save</td><td>&nbsp;</td>
+	<td>usually a filename for the new or modified file, but can also be a folder when extracting multiple resources</td>
+</tr>
+<tr>
+	<td valign="top">-resource</td><td>&nbsp;</td>
+	<td>filename - contains a resource being added to the opened file.</td>
+</tr>
+<tr>
+	<td valign="top">-action</td><td>&nbsp;</td>
+	<td>action to be performed on the opened file<br>
+	<ul style="margin: .6em 0 .2em 1em; padding: 0px; list-style: outside;">
+		<li><strong>add</strong>          - add a resource, but fails if it already exists
+		</li><li><strong>addoverwrite</strong> - add a resource, and overwriting if it already exists
+		</li><li><strong>addskip</strong> 	 - add a resource, but skipping if it already exists
+		</li><li><strong>compile</strong>      - compiles a resource script file (*.rc) to a binary resource file (*.res)
+		</li><li><strong>delete</strong>       - delete a resource
+		</li><li><strong>extract</strong>      - extract a resource
+		</li><li><strong>modify</strong>       - modify a resource
+		</li><li><strong>changelanguage(langID)</strong> - changes the language of ALL resources
+	</li></ul>	
+	</td>
+</tr>
+<tr>
+	<td valign="top">-mask</td><td>&nbsp;</td>
+	<td>resource mask - Type,Name,Language<br>
+	commas are mandatory but each of Type, Name &amp; Language are optional</td>
+</tr>
+<tr>
+	<td valign="top">-log</td><td>&nbsp;</td>
+	<td>Filename or <strong>CONSOLE</strong> or <strong>NUL</strong><br>
+      CONSOLE can be abbreviated to <strong>CON</strong><br>
+      Logs the details of the operation performed<br>
+      If this switch is omitted, the log will be written to <em>resourcehacker.log</em></td>
+</tr>
+<tr>
+	<td valign="top">-script</td><td>&nbsp;</td>
+	<td>filename - contains a multi-command script, NOT a resource script for more info: -help script</td>
+</tr>
+<tr>
+	<td valign="top">-help</td><td>&nbsp;</td>
+	<td>options - command-line or script (always logged to CONSOLE) other switches are ignored.</td>
+</tr>
+</tbody></table><br>
 
 Notes:
+<ol>
+	<li>Switch identifiers (except -script) may be abbreviated down to a single char (eg -res or -r).
+	</li><li>Switch instructions do not have to be in any particular order.
+	</li><li>File names that contain spaces must be enclosed within double quotes.
+</li></ol>
 
-    Switch identifiers (except -script) may be abbreviated down to a single char (eg -res or -r).
-    Switch instructions do not have to be in any particular order.
-    File names that contain spaces must be enclosed within double quotes. 
-
-
-Batch file Examples (using rh.exe instead of ResourceHacker.exe in places for brevity)
+<br>
+<strong>Batch file Examples</strong> <span class="smallfont">(using rh.exe instead of ResourceHacker.exe in places for brevity)</span><br><br>
 
 reshack_help.bat:
-
-ResourceHacker.exe -help
-@pause  :: to see the console output before the CMD window closes.
-
-
+<pre>ResourceHacker.exe -help
+@pause  :: to see the console output before the CMD window closes.</pre><br>
+  
 reshack_compile_res_script.bat:
-
-rh.exe -open .\in\resources.rc -save .\out\resources.res -action compile -log NUL
-
+<pre>rh.exe -open .\in\resources.rc -save .\out\resources.res -action compile -log NUL</pre><br>
 
 reshack_add_icon_to_old.bat:
-
-rh.exe -open old.exe -save new.exe -action addskip -res my.ico -mask ICONGROUP,MAINICON,
-
+<pre>rh.exe -open old.exe -save new.exe -action addskip -res my.ico -mask ICONGROUP,MAINICON,</pre><br>
 
 reshack_extract_all_source_icons_to_icons_folder.bat:
-
-rh.exe -open source.exe -save .\icons -action extract -mask ICONGROUP,, -log CON
-@pause
-
+<pre>rh.exe -open source.exe -save .\icons -action extract -mask ICONGROUP,, -log CON
+@pause</pre><br>
 
 reshack_extract_all_dialogs.bat:
-
-rh.exe -open source.exe -save .\dialogs.rc -action extract -mask DIALOG,, -log rh.log
-
+<pre>rh.exe -open source.exe -save .\dialogs.rc -action extract -mask DIALOG,, -log rh.log</pre><br>
 
 reshack_execute_my_script.bat:
+<pre>ResourceHacker.exe -script myscript.txt</pre><br>
 
-ResourceHacker.exe -script myscript.txt
+	
+<strong>Resource Hacker™ Scripts:</strong><br><br>
 
+Resource Hacker™ Scripts are executed from the command-line using the following syntax:<br><br>
 
-Resource Hacker™ Scripts:
+<pre>  ResourceHacker.exe -script ScriptFile</pre><br>
 
-Resource Hacker™ Scripts are executed from the command-line using the following syntax:
-
-  ResourceHacker.exe -script ScriptFile
-
-
-Resource Hacker™ Scripts are text files with the following format:
-
-  //comments are preceded by double slashes
+Resource Hacker™ Scripts are text files with the following format:<br><br>
+<pre>  //comments are preceded by double slashes
   [FILENAMES]
   Open=
   Save=
@@ -138,16 +252,14 @@ Resource Hacker™ Scripts are text files with the following format:
   -modify       SourceFile, ResourceMask
   -extract      TargetFile or TargetFolder, ResourceMask
   -delete       ResourceMask
-  -changelanguage(langID)
+  -changelanguage(langID)</pre><br>
+	
+Note: Filenames that include spaces must be enclosed within double quotes.<br><br>
 
-
-Note: Filenames that include spaces must be enclosed within double quotes.
-
-Resource Hacker™ Script examples:
+<strong>Resource Hacker™ Script examples:</strong><br><br>
 
 rh_script_myprog_rus.txt -
-
-
+<pre>
   //This script deletes all Language Neutral (0)
   //string-table, menu and dialog resource items
   //in MyProg.exe before replacing them
@@ -162,12 +274,10 @@ rh_script_myprog_rus.txt -
   -delete  STRINGTABLE,,0
   -add     MyProg_Rus.res, MENU,,1049
   -add     MyProg_Rus.res, DIALOG,,1049
-  -add     MyProg_Rus.res, STRINGTABLE,,1049
-
-
+  -add     MyProg_Rus.res, STRINGTABLE,,1049</pre><br>
+	
 rh_script_myprog_upd_images.txt -
-
-
+<pre>
   //This script updates 2 bitmaps and an
   //icon in MyProg.exe ...	
   [FILENAMES]
@@ -176,12 +286,10 @@ rh_script_myprog_upd_images.txt -
   [COMMANDS]
   -addoverwrite Bitmap128.bmp, BITMAP,128,
   -addoverwrite Bitmap129.bmp, BITMAP,129,0
-  -addoverwrite MainIcon.ico, ICONGROUP,MAINICON,0
-
-
+  -addoverwrite MainIcon.ico, ICONGROUP,MAINICON,0</pre><br>
+		
 rh_script_myprog_upd_all.txt -
-
-
+<pre>
   //This script replaces all resources
   //in MyProg.exe with all the resources
   //in MyProgNew.res	
@@ -190,36 +298,63 @@ rh_script_myprog_upd_all.txt -
   SaveAs= MyProg_Updated.exe
   [COMMANDS]
   -delete  ,,,            //delete all resources before...
-  -add MyProgNew.res ,,,  //adding all the new resources
+  -add MyProgNew.res ,,,  //adding all the new resources</pre><br><br>
 
 
-
-"Packed" or "Compressed" Executables:
-Some executable files are "packed" or "compressed" using compression algorithms. Not only does this reduces file size, it also makes viewing and modifying resources marginally more difficult. I suspect that this resource 'hiding' is (or was) a common objective in this process. Anyhow, in deference to these authors, I've chosen not to unpack files with Resource Hacker. As a side note, it seems that "packed" executables have become quite uncommon over the last 20 years, and software authors are exposing more rather than less information in executable resources. I suspect that earlier concerns about the loss of intellectual property with reverse engineering have been allayed.
-
-
-Licence to Use - Terms and Conditions:
-This Resource HackerTM software is released as freeware provided that you agree to the following terms and conditions:
-
-    This software is not to be distributed via any website domain or any other media without the prior written approval of the copyright owner.
-    This software is not to be used in any way to illegally modify software. 
-
-DISCLAIMER: A user of this Resource HackerTM software acknowledges that he or she is receiving this software on an "as is" basis and the user is not relying on the accuracy or functionality of the software for any purpose. The user further acknowledges that any use of this software will be at the user's own risk and the copyright owner accepts no responsibility whatsoever arising from the use or application of the software.
-
-The above licence terms constitute "copyright management information" within the meaning of Section 1202 of Title 17 of the United States Code and must not be altered or removed from the licensed works. Their alteration or removal from the licensed works, and the distribution of licensed works without all the above licence terms in an unaltered way, may contravene Section 1202 and give rise civil and/or criminal consequences.
+<h3>"Packed" or "Compressed" Executables:</h3>
+Some executable files are "packed" or "compressed" using compression 
+algorithms. Not only does this reduces file size, it also makes viewing 
+and modifying resources marginally more difficult. I suspect that this 
+resource 'hiding' is (or was) a common objective in this process. 
+Anyhow, in deference to these authors, I've chosen not to unpack files 
+with Resource Hacker. As a side note, it seems that "packed" executables
+ have become quite uncommon over the last 20 years, and software authors
+ are exposing more rather than less information in executable resources.
+ I suspect that earlier concerns about the loss of intellectual property
+ with reverse engineering have been allayed.<br><br><br>
 
 
-Download version 5.1.8:
-EXE install (4MB)
+<h3>Licence to Use - Terms and Conditions:</h3>
+This Resource Hacker<sup><font size="1">TM</font></sup> software is released as freeware provided that you agree to the following terms and conditions:
+	<ol>
+		<li>This software is not to be distributed via any website domain or any 
+	other media without the prior written approval of the copyright owner.
+		</li><li>This software is not to be used in any way to illegally modify software.
+	</li></ol>
+	DISCLAIMER: A user of this Resource Hacker<sup><font size="1">TM</font></sup>
+ software acknowledges that he or she is receiving this software on an 
+"as is" basis and the user is not relying on the accuracy or 
+functionality of the software for any purpose. The user further 
+acknowledges that any use of this software will be at the user's own 
+risk and the copyright owner accepts no responsibility whatsoever 
+arising from the use or application of the software.<br><br>
+	
+The above licence terms constitute "copyright management information" 
+within the meaning of Section 1202 of Title 17 of the United States Code
+ and must not be altered or removed from the licensed works. Their 
+alteration or removal from the licensed works, and the distribution of 
+licensed works without all the above licence terms in an unaltered way, 
+may contravene Section 1202 and give rise civil and/or criminal 
+consequences.<br><br><br>
 
-ZIP install (3MB)
+<a name="download"></a>
+<h3>Download version 5.1.8:</h3>
 
+<a href="http://www.angusj.com/resourcehacker/reshacker_setup.exe">EXE install</a> (4MB)<br><br>
+<a href="http://www.angusj.com/resourcehacker/resource_hacker.zip">ZIP install</a> (3MB)<br><br><br>
 
-Changes in 5.1.8 (360):
-Bugfix:	Some PNG files were no longer being displayed.
-Changes in 5.1.8:
-Added:	Zooming/scrolling views of image resources
-Update:	Enabled scrolling for very tall dialogs
-Bugfix:	Very large binary resources (>>100Mb) could crash the hex editor
-Bugfix:	Occasional bug decompiling dialogs styles (WS_TABSTOP)
-Bugfix:	RC file missing when extracting a binary resource type from commandline
+<strong>Changes in 5.1.8 (360):</strong>
+<table>
+	<tbody><tr><td>Bugfix:</td><td>Some PNG files were no longer being displayed.</td></tr><tr>
+</tr></tbody></table>
+<strong>Changes in 5.1.8:</strong>
+<table>
+	<tbody><tr><td>Added:</td><td>Zooming/scrolling views of image resources</td></tr><tr>
+	</tr><tr><td>Update:</td><td>Enabled scrolling for very tall dialogs</td></tr><tr>
+	</tr><tr><td>Bugfix:</td><td>Very large binary resources (&gt;&gt;100Mb) could crash the hex editor</td></tr><tr>
+	</tr><tr><td>Bugfix:</td><td>Occasional bug decompiling dialogs styles (WS_TABSTOP)</td></tr><tr>
+	</tr><tr><td>Bugfix:</td><td>RC file missing when extracting a binary resource type from commandline</td></tr><tr>
+</tr></tbody></table>
+                
+</div> </div><!-- outer most formatting-->
+</body></html>
