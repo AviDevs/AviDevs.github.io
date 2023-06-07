@@ -1,0 +1,108 @@
+Uri: https://a.exdynsrv.com/ad-provider.js
+File Name: C:\Downloaded Web Sites\bypass.vip\ad-provider.js
+Content Type: application/javascript
+
+Uri: https://a.exdynsrv.com/fp-interstitial.js
+File Name: C:\Downloaded Web Sites\bypass.vip\fp-interstitial.js
+Content Type: application/javascript
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\jquery\3.6.0\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://bypass.vip/
+File Name: C:\Downloaded Web Sites\bypass.vip\index.htm
+Content Type: text/html
+
+Uri: https://bypass.vip/assets/favicon.ico
+File Name: C:\Downloaded Web Sites\bypass.vip\assets\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://bypass.vip/assets/img/bg-masthead.jpg
+File Name: C:\Downloaded Web Sites\bypass.vip\assets\img\bg-masthead.jpg
+Content Type: image/jpeg
+
+Uri: https://bypass.vip/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js
+File Name: C:\Downloaded Web Sites\bypass.vip\cdn-cgi\scripts\7d0fa10a\cloudflare-static\rocket-loader.min.js
+Content Type: application/javascript
+
+Uri: https://bypass.vip/css/styles.css
+File Name: C:\Downloaded Web Sites\bypass.vip\css (1)\styles.css
+Content Type: text/css
+
+Uri: https://bypass.vip/js/scripts.js
+File Name: C:\Downloaded Web Sites\bypass.vip\js\scripts.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\bypass.vip\npm\bootstrap@4.6.0\dist\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://cdn.jsdelivr.net/npm/superagent
+File Name: C:\Downloaded Web Sites\bypass.vip\npm\superagent
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\simple-line-icons\2.5.5\css\simple-line-icons.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/fonts/Simple-Line-Icons.eot?v=2.4.0
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\simple-line-icons\2.5.5\fonts\Simple-Line-Icons.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/fonts/Simple-Line-Icons.svg?v=2.4.0
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\simple-line-icons\2.5.5\fonts\Simple-Line-Icons.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/fonts/Simple-Line-Icons.ttf?v=2.4.0
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\simple-line-icons\2.5.5\fonts\Simple-Line-Icons.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/fonts/Simple-Line-Icons.woff2?v=2.4.0
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\simple-line-icons\2.5.5\fonts\Simple-Line-Icons.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/fonts/Simple-Line-Icons.woff?v=2.4.0
+File Name: C:\Downloaded Web Sites\bypass.vip\ajax\libs\simple-line-icons\2.5.5\fonts\Simple-Line-Icons.woff
+Content Type: application/octet-stream
+
+Uri: https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic
+File Name: C:\Downloaded Web Sites\bypass.vip\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u8w4BMUTPHjxsAXC-v.ttf
+File Name: C:\Downloaded Web Sites\bypass.vip\s\lato\v24\S6u8w4BMUTPHjxsAXC-v.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPHA.ttf
+File Name: C:\Downloaded Web Sites\bypass.vip\s\lato\v24\S6u9w4BMUTPHh6UVSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwiPHA.ttf
+File Name: C:\Downloaded Web Sites\bypass.vip\s\lato\v24\S6u9w4BMUTPHh7USSwiPHA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWw.ttf
+File Name: C:\Downloaded Web Sites\bypass.vip\s\lato\v24\S6uyw4BMUTPHjx4wWw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf
+File Name: C:\Downloaded Web Sites\bypass.vip\s\lato\v24\S6u_w4BMUTPHjxsI5wq_Gwfo.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_Gwfo.ttf
+File Name: C:\Downloaded Web Sites\bypass.vip\s\lato\v24\S6u_w4BMUTPHjxsI9w2_Gwfo.ttf
+Content Type: font/ttf
+
+Uri: https://polyfill.io/v3/polyfill.min.js?features=WeakRef,BigInt
+File Name: C:\Downloaded Web Sites\bypass.vip\v3\polyfill.min.js
+Content Type: text/javascript
+
+Uri: https://use.fontawesome.com/releases/v5.15.3/js/all.js
+File Name: C:\Downloaded Web Sites\bypass.vip\releases\v5.15.3\js\all.js
+Content Type: application/javascript
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-1M6E8TE8WM
+File Name: C:\Downloaded Web Sites\bypass.vip\gtag\js
+Content Type: application/javascript
+
